@@ -7,6 +7,8 @@ module.exports = [
       City: "Brisbane",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.437943,
+      Longitude: 153.020624,
     },
   },
   {
@@ -17,6 +19,8 @@ module.exports = [
       City: "Cairns",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -16.888363,
+      Longitude: 145.743713,
     },
     AvailableSeats: [
       {
@@ -35,6 +39,8 @@ module.exports = [
       City: "Gold Coast",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.983047,
+      Longitude: 153.389923,
     },
     AvailableSeats: [
       {
@@ -53,6 +59,8 @@ module.exports = [
       City: "Gold Coast",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.983047,
+      Longitude: 153.389923,
     },
     AvailableSeats: [
       {
@@ -71,6 +79,8 @@ module.exports = [
       City: "Gold Coast",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.983047,
+      Longitude: 153.389923,
     },
     AvailableSeats: [
       {
@@ -89,6 +99,8 @@ module.exports = [
       City: "Gold Coast",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.983047,
+      Longitude: 153.389923,
     },
     AvailableSeats: [
       {
@@ -107,6 +119,8 @@ module.exports = [
       City: "Melbourne",
       State: "Victoria",
       Country: "Australia",
+      Latitude: -37.8135,
+      Longitude: 144.964316,
     },
     AvailableSeats: [
       {
@@ -125,6 +139,8 @@ module.exports = [
       City: "Gold Coast",
       State: "Queensland",
       Country: "Australia",
+      Latitude: -27.983047,
+      Longitude: 153.389923,
     },
     AvailableSeats: [
       {

@@ -1,14 +1,27 @@
 .App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  flex-wrap: wrap;
 }
 
 .App .navBarToolbar {
+  font-size: x-large;
   font-weight: bolder;
 }
 
-.App .eventListItem .description{
+.App .eventListItem .description {
   display: inline;
+}
+
+.App .filterEventsForm {
+  margin-top: 10px;
+}
+
+.App .filterEventsForm .filterEventsInput {
+  margin-left: 5px;
+  font-size: smaller;
+}
+
+.App .filterEventsForm {
+  margin-top: 5px;
 }
