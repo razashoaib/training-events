@@ -53,7 +53,9 @@ const EventsMap: FunctionComponent<IEventsMap> = ({ events }) => {
       <h4 className="map-h4">Come Visit Us At Our Events</h4>
       <GoogleMapReact
         resetBoundsOnResize={true}
-        bootstrapURLKeys={{ key: "AIzaSyCI9stirHsvIh5vfOiip1zepE-EzhGATHY" }}
+        bootstrapURLKeys={{
+          key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY || "",
+        }}
         defaultCenter={center}
         defaultZoom={zoom}
       >

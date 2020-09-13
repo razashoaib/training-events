@@ -39,6 +39,7 @@ It is a simple application to retrieve, filter and display training events based
 The code assumes you have Docker running on your machine.  If you do not, they offer easy to install binaries ([Mac](https://docs.docker.com/docker-for-mac/install/)) ([Windows](https://docs.docker.com/docker-for-windows/install/)).
 
 - Clone this repository
+- Create a `.env` file inside `client` folder and copy the contents from `.env-example`. Now add an appropriate Google Maps API Key for Google Maps to work 
 - Make sure you don't have anything running on port `3000` and `4000`
 - From the docker folder of this project, run `sudo chmod +x ./configure-app.sh` which will make `./configure-app.sh` script executable
 - Now run `./configure-app.sh` which will take a while as it will setup everything for you and run the client and server both. It will perform the following steps: 
